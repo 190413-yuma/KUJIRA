@@ -34,30 +34,48 @@
 	<p class="news_item">4月18日、KUJIRA cafeがオープンしました。ここ九寺楽の町で、皆さんが気軽に立ち寄れる、ゆったりと時間を過ごせる落ち着いた場所にしたいと思っています。</p>
 	<!-- メイン ここまで -->
 	
-<script type="text/javascript">
+	<script type="text/javascript">
 <!--
-$(function() {
-  $("#tabArea").tabs({
-    collapsible:true
+$(function(){
+  $("#wkAcd").accordion({
+    header: "h4",
+    collapsible:true,
+    active:true
   });
 });
 //-->
 </script>
 
-<div id="tabArea">
-  <ul>
-    <li><a href="#tab1">タブ１</a></li>
-    <li><a href="#tab2">タブ２</a></li>
-    <li><a href="#tab3">タブ３</a></li>
-  </ul>
-  <div id="tab1">
-    タブ１の内容です。<br><br><br>
+<div id="wkAcd" style="background-color:#CCC; padding:20px 20px 10px;">
+  <div>
+    <h4><a href="#">映画・興収ランキング</a></h4>
+    <div>
+    １位　アバター（27.8億ドル）
+    ２位　タイタニック（21.8億ドル）	 
+    ３位　スター・ウォーズ/フォースの覚醒（20.6億ドル）	 
+    ４位　アベンジャーズ/インフィニティ・ウォー（19.6億ドル）
+    ５位　ジュラシック・ワールド（16.6億ドル）
+    </div>
   </div>
-  <div id="tab2">
-    タブ２の内容です。<br><br><br>
+  <div>
+    <h4><a href="#">アルバムCD・売上枚数ランキング</a></h4>
+    <div>
+    １位　Michael Jackson「Thriller」（1.1億枚）
+    ２位　Pink Floyd「The Dark Side of the Moon」（4500万枚）	 
+    ３位　Eagles「Their Greatest Hits (1971–197」（4200万枚）	 
+    ４位　AC/DC「Back in Black」（4000万枚）
+    ５位　Whitney Houston「The Bodyguard」（4000万枚）
+    </div>
   </div>
-  <div id="tab3">
-    タブ３の内容です。<br><br><br>
+  <div>
+    <h4><a href="#">小説・売上部数ランキング</a></h4>
+    <div>
+    １位　ディケンズ「二都物語」（2億部）
+    ２位　J.R.R.トールキン「指輪物語」（1.5億部）	 
+    ３位　曹 雪芹「紅楼夢」（1億部）	 
+    ４位　J.R.R.トールキン「ホビットの冒険」（1億部）
+    ５位　アガサ・クリスティー「そして誰もいなくなった」（1億部）
+    </div>
   </div>
 </div>
 	
